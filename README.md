@@ -14,6 +14,10 @@ my trained model is at experiment/rag_7M_gpt2/ or the main file in my google dri
 
 here some demo examples from my replicated model, you can also run the juypternote book from google drive to test it
 
+all the required submissions are written in the report
+
+to reproduce my result, you may run the demo or follow the steps after training (if you already downloaded my model from the main repo in google drive)
+
 if you would like to use your own picture to test, you may put your own picture into the data/ directory after you download it to your local
 
 
@@ -80,9 +84,24 @@ Retrieve captions
 
 Models are saved under name <rag/norag>_<num params>M, e.g. `rag_7M` for a model trained with retrieval augmentation and 7M trainable parameters.
 
+### Inference
 
+```python infer.py --model_path <MODEL_PATH>```
 
+If you also specify `--checkpoint_path` inference runs with only that checkpoint. Else, all checkpoints in `--model_path` are used. 
 
+If you specify `--infer_test` inference uses test data, else val data is used.
 
+E.g. to run inference on the test split with model `rag_7M`, checkpoint `17712`, run
 
+```python infer.py --model_path experiments/rag_7M --checkpoint_path checkpoint-17712 --infer_test```
+
+The model predictions are stored as ```<val/test>_preds.json``` in each respective checkpoint subdirectory.
+
+Note: You can safely ignore the warning `Some weights of ThisGPT2LMHeadModel were not initialized from the model checkpoint at gpt2 and are newly initialized...` It occurs because a new model is first built and then the pre-trained parameters are loaded into it. 
+
+### Evaluate predictions
+
+```python coco-caption/run_eval.py <GOLD_ANN_PATH> <PREDICTIONS_PATH>```
+</details>
 
