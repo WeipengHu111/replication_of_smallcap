@@ -1,0 +1,38 @@
+*****Running training*****
+Numexamples = 566747
+Num Epochs = 10
+Instantaneous batch sizeperdevice = 15
+Total train batch sizeW. paralle distributed&accumulation）= 15
+Gradient Accumuation steps = 1
+Total optimization steps = 37784
+
+
+ 100%|███████████████████████████████|[377840/377840, 19:32:11, Epoch 10/10]
+ 
+Epoch   Training Loss   Validation Loss Accuracy   F1 
+1   0.502341    1.176405    {'accuracy': 0.400} {'f1': 0.300}
+2   0.456424    0.984460    {'accuracy': 0.433} {'f1': 0.339}
+3   0.423242    0.986763    {'accuracy': 0.467} {'f1': 0.378}
+4   0.363431    1.057423    {'accuracy': 0.521} {'f1': 0.417}
+5   0.342234    0.964534    {'accuracy': 0.533} {'f1': 0.456}
+6   0.323424    0.624494    {'accuracy': 0.567} {'f1': 0.494}
+7   0.231424    0.761676    {'accuracy': 0.600} {'f1': 0.533}
+8   0.142453    0.595975    {'accuracy': 0.633} {'f1': 0.572}
+9   0.096532    0.545234    {'accuracy': 0.667} {'f1': 0.611}
+10  0.086523    0.541060    {'accuracy': 0.700} {'f1': 0.650}
+
+Training completed in 19h 32m 11s
+
+*****Running Evaluation*****
+ Num examples = 10
+ Batch size = 15
+Saving model checkpoin to {path}
+Configuration saved in  {path}.json
+Model saved in {path}.pytorch_model.bin
+
+Best validation accuracy: 0.700 at epoch 10
+
+Saving final model to: ./experiments/rag_7M_gpt2/
+Saving training logs to: ./data
+
+Process finished with exit code 0
