@@ -10,14 +10,13 @@ google drive link: https://drive.google.com/drive/folders/103M-rFeWW99nrYBqFjdiq
 
 some demo examples from my replicated model, you can also run the juypternote book from google drive to test it
 
-
-![Screenshot from 2023-12-11 21-09-28](https://github.com/WeipengHu111/replication_of_smallcap/assets/70785418/da6ddd31-9f44-432c-999e-4801194c6605)
-
-
-![Screenshot from 2023-12-11 21-09-42](https://github.com/WeipengHu111/replication_of_smallcap/assets/70785418/b176ac2d-902b-4d6e-9b43-625f95ea5471)
+if you would like to use your own picture to test, you may put your own picture into the data/ directory after you download it to your local
 
 
-![Screenshot from 2023-12-11 21-09-56](https://github.com/WeipengHu111/replication_of_smallcap/assets/70785418/a266f73e-9c32-4b2b-a4e8-b710fb1171fb)
+![Screenshot from 2023-12-11 21-09-56](https://github.com/WeipengHu111/replication_of_smallcap/assets/70785418/7c3c75bd-b1ec-43b5-a374-f3588b768ff6)
+
+![Screenshot from 2023-12-11 21-09-42](https://github.com/WeipengHu111/replication_of_smallcap/assets/70785418/7db4facd-350c-4844-ac9f-184dfd41c3b9)
+
 
 ## Dependencies
 
@@ -76,9 +75,6 @@ Retrieve captions
 ```python train.py```
 
 Models are saved under name <rag/norag>_<num params>M, e.g. `rag_7M` for a model trained with retrieval augmentation and 7M trainable parameters.
-
-
-
 
 
 
