@@ -50,8 +50,6 @@ See `SmallCap_demo.inynb` for a demo of our pretrained model.
 
 ## Training SmallCap
 
-<details>
-<summary>Click to expand</summary>
 
 ### Data
 
@@ -103,5 +101,5 @@ Note: You can safely ignore the warning `Some weights of ThisGPT2LMHeadModel wer
 ### Evaluate predictions
 
 ```python coco-caption/run_eval.py <GOLD_ANN_PATH> <PREDICTIONS_PATH>```
-</details>
+
 
