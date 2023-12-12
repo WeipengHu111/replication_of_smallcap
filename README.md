@@ -4,6 +4,10 @@ demo link: https://drive.google.com/drive/folders/103M-rFeWW99nrYBqFjdiqAsqZd0jK
 
 to run the demo, you can simply download the files and then run the jupyter notebook code
 
+since the model is too big to upload in github, I place it in my google drive link in experiment repo
+
+google drive link: https://drive.google.com/drive/folders/103M-rFeWW99nrYBqFjdiqAsqZd0jKvZ8?usp=sharing
+
 ## Dependencies
 
 The code was developed in Python 3.9.
