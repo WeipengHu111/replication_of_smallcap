@@ -1,4 +1,4 @@
-# replication of smallcap
+# final project of smallcap
 
 ** big files and model are in google drive!**
 
