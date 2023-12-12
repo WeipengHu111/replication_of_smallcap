@@ -8,6 +8,17 @@ since the model is too big to upload in github, I place it in my google drive li
 
 google drive link: https://drive.google.com/drive/folders/103M-rFeWW99nrYBqFjdiqAsqZd0jKvZ8?usp=sharing
 
+some demo examples from my replicated model, you can also run the juypternote book from google drive to test it
+
+
+![Screenshot from 2023-12-11 21-09-28](https://github.com/WeipengHu111/replication_of_smallcap/assets/70785418/da6ddd31-9f44-432c-999e-4801194c6605)
+
+
+![Screenshot from 2023-12-11 21-09-42](https://github.com/WeipengHu111/replication_of_smallcap/assets/70785418/b176ac2d-902b-4d6e-9b43-625f95ea5471)
+
+
+![Screenshot from 2023-12-11 21-09-56](https://github.com/WeipengHu111/replication_of_smallcap/assets/70785418/a266f73e-9c32-4b2b-a4e8-b710fb1171fb)
+
 ## Dependencies
 
 The code was developed in Python 3.9.
