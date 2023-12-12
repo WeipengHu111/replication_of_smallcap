@@ -2,6 +2,8 @@
 
 demo link: https://drive.google.com/drive/folders/103M-rFeWW99nrYBqFjdiqAsqZd0jKvZ8?usp=sharing
 
+to run the demo, you can simply download the files and then run the jupyter notebook code
+
 ## Dependencies
 
 The code was developed in Python 3.9.
