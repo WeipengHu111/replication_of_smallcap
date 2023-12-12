@@ -1,4 +1,7 @@
-Microsoft COCO Caption Evaluation
+Microsoft COCO Caption Evaluation -- 
+since files are too big to upload it in github
+I have already put files in my google drive
+link in the main page
 ===================
 
 Evaluation codes for MS COCO caption generation.
